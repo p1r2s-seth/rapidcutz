@@ -340,7 +340,8 @@ a {
 
 @media only screen and (max-width: 767px) {
   .hero-text h1 {
-    font-size: 40px;
+    font-size: 3.5rem;
+    margin-bottom: 5%;
   }
 }
 
@@ -1088,16 +1089,22 @@ background: linear-gradient(115deg, rgba(128,128,215,1) 0%, rgba(107,178,255,1) 
     margin-left: 20%;
   }
 
+  .process_img{
+    max-width: 30%;
+  }
+
   .approach h2{
     text-align: center;
+    font-size: 3.5rem;
   }
 
   .approach p{
     text-align: center;
+    font-size: 1.5rem;
   }
 
   .counter h2{
-    font-size: 7rem;
+    font-size: 4rem;
   }
 
   .phone{
@@ -1107,6 +1114,7 @@ background: linear-gradient(115deg, rgba(128,128,215,1) 0%, rgba(107,178,255,1) 
   .title-heading{
     letter-spacing: 0px;
     line-height: 70px;
+    font-size: 3.5rem;
   }
 
   .mb_process{
@@ -1124,6 +1132,25 @@ background: linear-gradient(115deg, rgba(128,128,215,1) 0%, rgba(107,178,255,1) 
   .approach{
     text-align: center;
     margin-top: 5%;
+  }
+
+  .phil_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact h4{
+    font-size: 2rem;
+  }
+
+  .contact p{
+    font-size: 1.5rem;
+  }
+
+  .mtop{
+    font-size: 1.5rem !important;
+    letter-spacing: 2px !important;
   }
 
   iframe{
